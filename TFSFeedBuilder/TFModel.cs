@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using Microsoft.TeamFoundation.Client;
 using Microsoft.TeamFoundation.WorkItemTracking.Client;
@@ -11,11 +12,21 @@ namespace TFSFeedBuilder
 
         private TfsTeamProjectCollection tfs;
         private WorkItemStore wiStore;
+        private string wiQuery = "Select [State], [Title], [Id] From WorkItems Where [Assigned to] = @Me Order By [Id] Desc";
+        private WorkItemCollection queryResults;
+
+        #endregion
+
+        #region Public Members
 
         public string Username { get; set; }
         public string Password { get; set; }
         public string Domain { get; set; }
+        //string TFSPath = "http://tfstta.int.thomson.com:8080/tfs";
         public string TFSPath { get; set; }
+        public string SavePath { get; set; }
+
+        public string RssFeed { get; set; }
 
         #endregion
 
@@ -49,14 +60,32 @@ namespace TFSFeedBuilder
             wiStore = (WorkItemStore)tfs.GetService(typeof(WorkItemStore));
         }
 
-        public WorkItemCollection QueryStore(string query)
+        public void QueryStore()
         {
-            if (wiStore == null)
-                return null;
-
-            return wiStore.Query(query);
+            queryResults = wiStore.Query(wiQuery);
         }
 
+
+        public void BuildFeed()
+        {
+            //TODO: ACTUALLY GENERATE A RSS FEED HERE
+            for (int i = 0; i < queryResults.Count; i++)
+            {
+                RssFeed += queryResults[i].Id + "\t" + queryResults[i].Title + "\n";
+            }
+        }
+
+        public void OutputFile()
+        {
+            if (SavePath == null) return;
+
+            //TODO: proper input mode?
+            Stream fileStream = new FileStream(SavePath, FileMode.OpenOrCreate);
+            var sw = new StreamWriter(fileStream);
+            sw.Write(RssFeed);
+            sw.Flush();
+            sw.Close();
+        }
 
         #endregion
     }

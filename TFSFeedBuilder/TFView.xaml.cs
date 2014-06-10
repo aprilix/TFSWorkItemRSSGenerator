@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.ComponentModel;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace TFSFeedBuilder
@@ -13,6 +14,7 @@ namespace TFSFeedBuilder
         //BAD PROGRAMMER NO COOKIE
         private TFController controller;
         private TFModel model;
+        private string saveLoc;
 
         #endregion
 
@@ -23,8 +25,6 @@ namespace TFSFeedBuilder
 
             //pwBox
             pwBox.PasswordChar = '*';
-            pwBox.HorizontalContentAlignment = HorizontalAlignment.Center;
-            pwBox.VerticalContentAlignment = VerticalAlignment.Center;
 
             DoBadThings();
         }
@@ -38,7 +38,6 @@ namespace TFSFeedBuilder
 
         private void svBox_OnTextChanged(object sender, TextChangedEventArgs e)
         {
-            //string tfsPath = "http://tfstta.int.thomson.com:8080/tfs";
             model.TFSPath = svBox.Text;
         }
 
@@ -60,6 +59,57 @@ namespace TFSFeedBuilder
         private void BtnGo_OnClick(object sender, RoutedEventArgs e)
         {
             controller.Run();
+
+            Application.Current.Shutdown();
+        }
+
+
+        private void BtnBrowse_OnClick(object sender, RoutedEventArgs e)
+        {
+            var dlg = new Microsoft.Win32.SaveFileDialog
+            {
+                DefaultExt = ".xml",
+                Filter = "Txt Files (*.xml)|*.xml",
+                Title = "Save RSS Feed",
+            };
+
+            var result = dlg.ShowDialog();
+
+            if (result != true)
+                return;
+
+            saveLoc = dlg.FileName;
+            model.SavePath = saveLoc;
+
+            //Set the lblSaveLoc field
+            int fileNameLen = model.SavePath.Length;
+            int subStart = 0;
+            lblSaveLoc.Content = "";
+
+            if (fileNameLen >= 20)
+            {
+                subStart = fileNameLen - 20;
+                lblSaveLoc.Content = "...";
+            }
+
+            lblSaveLoc.Content = lblSaveLoc.Content + model.SavePath.Substring(subStart, fileNameLen - subStart);
+        }
+
+
+        private void TFView_OnClosing(object sender, CancelEventArgs e)
+        {
+            //Could just use the model, but this handles the case of closing w/o touching any fields yet
+            var serv = svBox.Text;
+            var user = unBox.Text;
+            var pw = pwBox.Password;
+            var domain = dnBox.Text;
+
+            if (!string.IsNullOrEmpty(serv) && !string.IsNullOrEmpty(user) && !string.IsNullOrEmpty(pw)
+                && !string.IsNullOrEmpty(domain) && !string.IsNullOrEmpty(saveLoc))
+            {
+                DAL.ClearTable(); //just in case; DB should only have 1 user in it
+                DAL.AddUser(user, pw, domain, serv, saveLoc);
+            }
         }
     }
 }

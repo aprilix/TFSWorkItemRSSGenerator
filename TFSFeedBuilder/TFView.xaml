@@ -1,18 +1,24 @@
 ﻿<Window x:Class="TFSFeedBuilder.TFView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="TFView" Height="268" Width="483">
+        Title="TFS RSS Builder" Height="314" Width="483"
+        Closing="TFView_OnClosing">
     <Grid>
-        <TextBox x:Name="svBox" HorizontalAlignment="Left" Height="23" Margin="152,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="269" TextChanged="svBox_OnTextChanged"/>
-        <TextBox x:Name="unBox" HorizontalAlignment="Left" Height="23" Margin="152,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="269" TextChanged="UnBox_OnTextChanged"/>
-        <TextBox x:Name="dnBox" HorizontalAlignment="Left" Height="23" Margin="152,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="269" TextChanged="DnBox_OnTextChanged"/>
-        <PasswordBox x:Name="pwBox" HorizontalAlignment="Left" Margin="152,152,0,0" VerticalAlignment="Top" Width="269" PasswordChanged="PwBox_OnPasswordChanged"/>
+        <TextBox x:Name="svBox" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="152,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" TextChanged="svBox_OnTextChanged"/>
+        <TextBox x:Name="unBox" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="152,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" TextChanged="UnBox_OnTextChanged"/>
+        <TextBox x:Name="dnBox" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="152,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" TextChanged="DnBox_OnTextChanged"/>
+        <PasswordBox x:Name="pwBox" HorizontalAlignment="Left" Margin="152,152,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="279" PasswordChanged="PwBox_OnPasswordChanged"/>
+        <Label x:Name="lblSaveLoc" Content="" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="152,191,0,0" VerticalAlignment="Top" Width="207"/>
+        
+        
         <Label Content="SERVER" HorizontalAlignment="Left" Margin="51,24,0,0" VerticalAlignment="Top"/>
         <Label Content="USERNAME" HorizontalAlignment="Left" Margin="51,64,0,0" VerticalAlignment="Top"/>
         <Label Content="DOMAIN" HorizontalAlignment="Left" Margin="51,104,0,0" VerticalAlignment="Top"/>
         <Label Content="PASSWORD" HorizontalAlignment="Left" Margin="51,146,0,0" VerticalAlignment="Top"/>
-        
-        <Button x:Name="btnGo"  Content="AWESOME" HorizontalAlignment="Left" Margin="183,189,0,0" VerticalAlignment="Top" Width="127" Height="39" Click="BtnGo_OnClick"/>
+        <Label Content="SAVE TO" HorizontalAlignment="Left" Margin="51,191,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="btnGo"  Content="GO!" HorizontalAlignment="Left" Margin="179,235,0,0" VerticalAlignment="Top" Width="127" Height="39" Click="BtnGo_OnClick"/>
+        <Button x:Name="btnBrowse" Content="BROWSE" HorizontalAlignment="Left" Margin="374,191,0,0" VerticalAlignment="Top" Width="57" Click="BtnBrowse_OnClick"/>
 
     </Grid>
 </Window>
