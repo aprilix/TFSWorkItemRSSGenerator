@@ -12,7 +12,8 @@ namespace TFSFeedBuilder
 
         private TfsTeamProjectCollection tfs;
         private WorkItemStore wiStore;
-        private string wiQuery = "Select [State], [Title], [Id] From WorkItems Where [Assigned to] = @Me Order By [Id] Desc";
+        //TODO: make this a bit more dynamic?
+        private string wiQuery = "Select [State], [Title], [Id] From WorkItems Where [Assigned to] = @Me Order By [Id] Asc";
         private WorkItemCollection queryResults;
 
         #endregion

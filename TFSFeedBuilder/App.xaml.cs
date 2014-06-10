@@ -11,7 +11,9 @@ namespace TFSFeedBuilder
         {
             base.OnStartup(e);
 
-            if (e.Args.Length == 0 || DAL.FetchUsersCount() == 0 || (e.Args.Length != 0 && e.Args[0] == "-r"))
+            var curUserCount = DAL.FetchUsersCount();
+
+            if (e.Args.Length == 0 || curUserCount == 0 || (e.Args.Length != 0 && e.Args[0] == "-r"))
             {
                 //do things with a gui
                 if (e.Args.Length != 0 && e.Args[0] == "-r")

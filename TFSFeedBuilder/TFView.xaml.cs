@@ -60,9 +60,8 @@ namespace TFSFeedBuilder
         {
             controller.Run();
 
-            Application.Current.Shutdown();
+            this.Close();
         }
-
 
         private void BtnBrowse_OnClick(object sender, RoutedEventArgs e)
         {
@@ -84,11 +83,12 @@ namespace TFSFeedBuilder
             //Set the lblSaveLoc field
             int fileNameLen = model.SavePath.Length;
             int subStart = 0;
+            int maxLen = 30;
             lblSaveLoc.Content = "";
 
-            if (fileNameLen >= 20)
+            if (fileNameLen >= maxLen)
             {
-                subStart = fileNameLen - 20;
+                subStart = fileNameLen - maxLen;
                 lblSaveLoc.Content = "...";
             }
 

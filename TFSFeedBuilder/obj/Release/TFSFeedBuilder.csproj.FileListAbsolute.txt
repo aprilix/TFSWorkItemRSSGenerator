@@ -1,0 +1,1 @@
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Release\TFSFeedBuilder.exe.config
