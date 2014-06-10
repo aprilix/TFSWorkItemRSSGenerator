@@ -11,7 +11,7 @@ namespace TFSFeedBuilder
         {
             base.OnStartup(e);
 
-            var curUserCount = DAL.FetchUsersCount();
+            var curUserCount = 0; //DAL.FetchUsersCount();
 
             if (e.Args.Length == 0 || curUserCount == 0 || (e.Args.Length != 0 && e.Args[0] == "-r"))
             {
@@ -21,7 +21,7 @@ namespace TFSFeedBuilder
 
                 new TFView().ShowDialog();
             }
-            else if (e.Args.Length != 0 && e.Args[0] == "-f" && DAL.FetchUsersCount() != 0)
+            else if (e.Args.Length != 0 && e.Args[0] == "-f" && curUserCount != 0)
             {
                 //do things without a GUI
                 var model = new TFModel();

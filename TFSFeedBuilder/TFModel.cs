@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using Microsoft.TeamFoundation.Client;
@@ -69,19 +70,26 @@ namespace TFSFeedBuilder
 
         public void BuildFeed()
         {
-            //TODO: ACTUALLY GENERATE A RSS FEED HERE
+            List<RssNode> feedList = new List<RssNode>();
+
             for (int i = 0; i < queryResults.Count; i++)
             {
-                RssFeed += queryResults[i].Id + "\t" + queryResults[i].Title + "\n";
+                WorkItem curItem = queryResults[i];
+                feedList.Add(new RssNode(curItem.Id.ToString(), curItem.Title, curItem.Uri.ToString()));
             }
+
+            GenHeader();
+
+            GenFeed(feedList);
+
+            GenFooter();
         }
 
         public void OutputFile()
         {
             if (SavePath == null) return;
 
-            //TODO: proper input mode?
-            Stream fileStream = new FileStream(SavePath, FileMode.OpenOrCreate);
+            Stream fileStream = new FileStream(SavePath, FileMode.Create);
             var sw = new StreamWriter(fileStream);
             sw.Write(RssFeed);
             sw.Flush();
@@ -89,5 +97,36 @@ namespace TFSFeedBuilder
         }
 
         #endregion
+
+        #region Private Methods
+        
+        private void GenHeader()
+        {
+            RssFeed =  "<?xml version=\"1.0\" ?>\n" +
+                       "<rss version=\"2.0\">\n" +
+                       "<channel>\n\n";
+        }
+
+        private void GenFeed(List<RssNode> nodeList)
+        {
+            if (nodeList == null || nodeList.Count == 0)
+                return;
+
+            foreach (var node in nodeList)
+            {
+                RssFeed += "<item>\n";
+                RssFeed += string.Format("\t<title>{0}</title>\n", node.Title);
+                RssFeed += string.Format("\t<description>{0}</description>\n", node.Description);
+                RssFeed += string.Format("\t<link>{0}</link>\n", node.Link);
+                RssFeed += "</item>\n";
+            }
+        }
+
+        private void GenFooter()
+        {
+            RssFeed += "\n</channel>\n" +
+                       "</rss>";
+        }
+	    #endregion
     }
 }

@@ -13,3 +13,4 @@ C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSF
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csproj.GenerateResource.Cache
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.pdb
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csprojResolveAssemblyReference.cache

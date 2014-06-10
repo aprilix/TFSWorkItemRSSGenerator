@@ -91,6 +91,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataStoreDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="RssNode.cs" />
     <Compile Include="TFController.cs" />
     <Compile Include="TFView.xaml.cs">
       <DependentUpon>TFView.xaml</DependentUpon>
