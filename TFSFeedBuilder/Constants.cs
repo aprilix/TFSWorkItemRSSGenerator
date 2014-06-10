@@ -3,7 +3,7 @@
     class Constants
     {
         //User Table information
-        public const string UserTable = "User";
+        public const string UserTable = "[User]";
 
         //Schema for User table
         public const string UserCol = "username";

@@ -11,7 +11,7 @@ namespace TFSFeedBuilder
         {
             base.OnStartup(e);
 
-            var curUserCount = 0; //DAL.FetchUsersCount();
+            var curUserCount = DAL.FetchUsersCount();
 
             if (e.Args.Length == 0 || curUserCount == 0 || (e.Args.Length != 0 && e.Args[0] == "-r"))
             {

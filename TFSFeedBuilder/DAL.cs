@@ -22,7 +22,7 @@ namespace TFSFeedBuilder
                 try
                 {
                     con.Open();
-                    count = cmd.ExecuteNonQuery();
+                    count = (int) cmd.ExecuteScalar();
                 }
                 catch (Exception ex)
                 {
