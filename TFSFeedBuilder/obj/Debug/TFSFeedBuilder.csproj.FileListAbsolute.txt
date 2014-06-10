@@ -14,3 +14,15 @@ C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSF
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.pdb
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe.manifest
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.application
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.Client.dll
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.Common.dll
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.dll
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.dll
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Common.dll
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.Common.xml
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.xml
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.TrustInfo.xml
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe.manifest
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.application
