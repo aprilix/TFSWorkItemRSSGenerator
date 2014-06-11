@@ -26,3 +26,4 @@ C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSF
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.TrustInfo.xml
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe.manifest
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.application
+C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll
