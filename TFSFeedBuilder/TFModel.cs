@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Net;
 using Microsoft.TeamFoundation.Client;
@@ -16,6 +17,10 @@ namespace TFSFeedBuilder
         //TODO: make this a bit more dynamic?
         private string wiQuery = "Select [State], [Title], [Id] From WorkItems Where [Assigned to] = @Me Order By [Id] Asc";
         private WorkItemCollection queryResults;
+
+        private const string coll = "DefaultCollection";
+        private const string workItemUrl = "_workItems#id=";
+        private const string triageUrl = "&triage=true&_a=edit";
 
         #endregion
 
@@ -75,7 +80,8 @@ namespace TFSFeedBuilder
             for (int i = 0; i < queryResults.Count; i++)
             {
                 WorkItem curItem = queryResults[i];
-                feedList.Add(new RssNode(curItem.Id.ToString(), curItem.Title, curItem.Uri.ToString()));
+                string url = buildUrl(curItem);
+                feedList.Add(new RssNode(curItem.Id.ToString(CultureInfo.InvariantCulture), curItem.Title, url));
             }
 
             GenHeader();
@@ -99,12 +105,26 @@ namespace TFSFeedBuilder
         #endregion
 
         #region Private Methods
-        
+
+        private string buildUrl(WorkItem curItem)
+        {
+            //NOTE: not sure if this URL is really dynamic enough?
+            string result = TFSPath + "/" + coll + "/" + webify(curItem.Project.Name) + "/" +
+                                            workItemUrl + curItem.Id.ToString(CultureInfo.InvariantCulture) + triageUrl;
+
+            return result;
+        }
+
+        private string webify(string link)
+        {
+            return link.Replace(" ", "%20");
+        }
+
         private void GenHeader()
         {
-            RssFeed =  "<?xml version=\"1.0\" ?>\n" +
-                       "<rss version=\"2.0\">\n" +
-                       "<channel>\n\n";
+            RssFeed = "<?xml version=\"1.0\" ?>\n" +
+                                 "<rss version=\"2.0\">\n" +
+                                 "<channel>\n\n";
         }
 
         private void GenFeed(List<RssNode> nodeList)
@@ -125,8 +145,8 @@ namespace TFSFeedBuilder
         private void GenFooter()
         {
             RssFeed += "\n</channel>\n" +
-                       "</rss>";
+                                 "</rss>";
         }
-	    #endregion
+        #endregion
     }
 }
