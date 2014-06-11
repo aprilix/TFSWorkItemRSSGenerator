@@ -28,18 +28,8 @@ C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSF
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.application
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll
 C:\Users\Cory\documents\visual studio 2012\Projects\TFSFeedBuilder Solution\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe.config
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.pdb
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csprojResolveAssemblyReference.cache
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFView.baml
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFView.g.cs
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\App.g.cs
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder_MarkupCompile.cache
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.g.resources
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.Properties.Resources.resources
-C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csproj.GenerateResource.Cache
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\DataStore.sdf
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe.config
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe.manifest
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.application
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe
@@ -59,6 +49,15 @@ C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSF
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.ProjectManagement.xml
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Controls.xml
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.ControlsCore.xml
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFView.baml
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFView.g.cs
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\App.g.cs
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder_MarkupCompile.cache
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.g.resources
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.Properties.Resources.resources
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csproj.GenerateResource.Cache
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.TrustInfo.xml
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe.manifest
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.application
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe
+C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.pdb
