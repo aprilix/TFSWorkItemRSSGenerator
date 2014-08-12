@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Release\
 TFSFeedBuilder
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\App.xaml
 1-324219971
 
-151724859341
+112103451467
 231285051735
 TFView.xaml;
 

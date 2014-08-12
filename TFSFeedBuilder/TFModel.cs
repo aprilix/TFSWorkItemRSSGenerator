@@ -15,7 +15,7 @@ namespace TFSFeedBuilder
         private TfsTeamProjectCollection tfs;
         private WorkItemStore wiStore;
         //TODO: make this a bit more dynamic?
-        private string wiQuery = "Select [State], [Title], [Id] From WorkItems Where [Assigned to] = @Me Order By [Id] Asc";
+        private string wiQuery = "Select [State], [Title], [Id] From WorkItems Where [Assigned to] = @Me And [State] = 'Active' Order By [Id] Asc";
         private WorkItemCollection queryResults;
 
         private const string coll = "DefaultCollection";

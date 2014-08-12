@@ -61,3 +61,40 @@ C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSF
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.application
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe
 C:\Users\Cory\Documents\Visual Studio 2012\Projects\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.pdb
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe.config
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.pdb
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\DataStore.sdf
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe.manifest
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.application
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.exe
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\TFSFeedBuilder.pdb
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.Controls.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.DeleteTeamProject.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.ProjectManagement.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.VersionControl.Controls.Common.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Controls.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.ControlsCore.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Common.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.Controls.xml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.DeleteTeamProject.xml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.ProjectManagement.xml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Controls.xml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.ControlsCore.xml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.WITDataStore.dll
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csprojResolveAssemblyReference.cache
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFView.baml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFView.g.cs
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\App.g.cs
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder_MarkupCompile.cache
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.g.resources
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.Properties.Resources.resources
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.csproj.GenerateResource.Cache
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.TrustInfo.xml
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.exe.manifest
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\obj\Debug\TFSFeedBuilder.application
+C:\Users\u0160321\Desktop\TFSWorkItemRSSGenerator\TFSFeedBuilder\bin\Debug\Microsoft.TeamFoundation.Client.dll
